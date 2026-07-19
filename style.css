@@ -1,0 +1,283 @@
+*, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.2s ease;
+}
+
+.logo-text{
+    font-size: 18px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-left, .menu-right, .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+
+.h-80dvh{
+    height: 80dvh;
+}
+
+.bg-primary{
+    background-color: #0F1216;
+}
+
+.bg-secondary{
+    background-color: #1A2029;
+}
+
+.bg-teste{
+    background-color: #bdfa17;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.text-white{
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.margin-texts{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+.contato-button{
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.contato-button:hover{
+    background-color: white;
+    border: white 2px solid;
+    color: #0F1216;
+    cursor: pointer;
+}
+
+.saiba-mais{
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    margin: 100px 0;
+    text-decoration: none;
+}
+
+.saiba-mais:hover{
+    background-color: white;
+    border: white 2px solid;
+    color: #0F1216;
+    cursor: pointer;
+}
+
+.inscreva-se{
+    background-color: white;
+    border: white 2px solid;
+    color: #0F1216;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    margin: 100px 10px;
+}
+
+.inscreva-se:hover{
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.section-margin{
+    margin-top: 400px;
+}
+
+.h3-margin{
+    margin-top: 100px;
+}
+
+.p-text{
+    padding: 0 100px;
+}
+
+.m-10{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.px-10{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.py-10{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pt-0{
+    padding-top: 0;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.margin-center{
+    margin: 0 auto;
+}
+
+.nosso-projeto{
+    border-radius: 15px;
+    height: 250px;
+    position: relative;
+}
+
+.contate-nos{
+    border-radius: 15px;
+    position: relative;
+}
+
+.subtext{
+    margin-top: 50px;
+}
+
+.cat-image{
+    object-fit: cover;
+    object-position: 50px 50px;
+    width: 300px;
+    position: absolute;
+    bottom: -94px;
+    left: 0;
+}
+
+form {
+    width: 100%;
+    padding: 1em;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input,
+textarea {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid transparent;
+    border-bottom-color: #bbb;
+    padding: 0.75em;
+    margin: 0.5em 0 2.5em;
+    color: white;
+    outline: 0;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom: 2px solid #8e999a;
+    background-color: #2a2727;
+}
+
+legend {
+    padding: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    color: #8e999a;
+    font-size: 1.3em;
+}
+
+.btn {
+    background-color: #2a2727;
+    color: white;
+    cursor: pointer;
+    padding: 0.7em;
+    font-size: 1.2em;
+    border: none;
+}
+
+.form-button{
+    background-color: white;
+    border: white 2px solid;
+    color: #0F1216;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+.form-button:hover{
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+    cursor: pointer;
+}
+
+.aviso{
+    padding-bottom: 10px;
+}

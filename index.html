@@ -4,28 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOME | Programação para crianças!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-primary">
     <header>
-        <nav></nav>
+        <nav class="navbar">
+            <div class="logo">
+                <h3 class="bold p-text logo-text">PROGRAMANIA!</h3>
+            </div>
+            <div class="menu-right">
+                <a href="#aviso" class="contato-button">Contate-nos</a>
+            </div>
+        </nav>
     </header>
 
-    <section>
-        <div class="">
-            <img src="" alt="" class="">
-
-            <h2 class=""></h2>
-            <p class=""></p>
-
-            <div class="">
-                <a href="" class=""></a>
-                <a href="" class=""></a>
-            </div>
+    <section class="w-full section-margin h-80dvh">
+        <div class="flex flex-col text-white w-full">
+            <h2 class="margin-texts bold p-text">PROGRAMANIA</h2>
+            <p class="margin-texts p-text">Iniciação de programação para crianças!</p>
         </div>
 
-        <div class=""></div>
+        <div class="flex p-text">
+            <a href="#saiba-mais" class="saiba-mais">Saiba Mais</a>
+            <button class="inscreva-se">Inscreva-se</button>
+        </div>
     </section>
-    
-    <footer></footer>
+
+    <div class="h-90dvh bg-secondary w-full py-10 pt-0">
+        <div class="flex flex-col text-white w-full">
+            <h3 class="margin-texts bold p-text h3-margin">Sobre nós</h3>
+            <p class="margin-texts p-text">Iniciação de programação para crianças!</p>
+        </div>
+
+        <div class="w-full flex m-10" id="saiba-mais">
+            <div class="w-60 px-10 bg-primary margin-center nosso-projeto text-white">
+                <p class="subtext">
+                    Acreditamos que aprender programação pode ser uma experiência divertida, criativa e acessível para todas as crianças. Nossa plataforma foi desenvolvida para despertar o interesse pela tecnologia por meio de metodologias interativas e atividades práticas que estimulam o raciocínio lógico, a criatividade e a resolução de problemas. Nosso objetivo é transformar os primeiros passos no mundo da programação em uma jornada de aprendizado leve, inspiradora e cheia de descobertas.
+                </p>
+                <img src="./assets/img/cat.png" alt="littel cat" class="cat-image">
+            </div>
+        </div>
+    </div>
+
+    <div class="h-90dvh bg-primary w-full py-10 pt-0">
+        <div class="flex flex-col text-white w-full">
+            <h3 class="margin-texts bold p-text h3-margin">Entre em contato</h3>
+            <p class="margin-texts p-text">Envie uma mensagem para nós através do formulário</p>
+        </div>
+
+        <div class="w-full flex m-10">
+            <div class="w-60 px-10 bg-secondary margin-center contate-nos text-white">
+                <form>
+                    <fieldset>
+                        <legend>Entre em contato por aqui</legend>
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome completo" />
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Digite um e-mail válido" />
+                        <label for="subject">Assunto</label>
+                        <input type="text" name="subject" id="subject" placeholder="Insira o assunto da mensagem" />
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" rows="7" required maxlength="1000" minlength="20" placeholder="Conte-nos tudo"></textarea>
+                        <button class="form-button" id="form-button">Confirmar</button>
+                    </fieldset>
+                </form>
+                <p class="subtext text-center aviso" id="aviso"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
