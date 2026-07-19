@@ -9,6 +9,10 @@
     transition: all 0.2s ease;
 }
 
+.logo-text{
+    font-size: 18px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -184,7 +188,7 @@ h3{
 
 .nosso-projeto{
     border-radius: 15px;
-    height: 400px;
+    height: 250px;
     position: relative;
 }
 
