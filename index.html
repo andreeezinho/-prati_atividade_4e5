@@ -8,7 +8,14 @@
 </head>
 <body class="bg-primary">
     <header>
-        <nav></nav>
+        <nav class="navbar">
+            <div class="logo">
+                <h3 class="bold p-text">Sobre nós</h3>
+            </div>
+            <div class="menu-right">
+                <a href="#aviso" class="contato-button">Contate-nos</a>
+            </div>
+        </nav>
     </header>
 
     <section class="w-full section-margin h-80dvh">
@@ -18,7 +25,7 @@
         </div>
 
         <div class="flex p-text">
-            <a href="#" class="saiba-mais">Saiba Mais</a>
+            <a href="#saiba-mais" class="saiba-mais">Saiba Mais</a>
             <button class="inscreva-se">Inscreva-se</button>
         </div>
     </section>
@@ -29,7 +36,7 @@
             <p class="margin-texts p-text">Iniciação de programação para crianças!</p>
         </div>
 
-        <div class="w-full flex m-10">
+        <div class="w-full flex m-10" id="saiba-mais">
             <div class="w-60 px-10 bg-primary margin-center nosso-projeto text-white">
                 <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae earum illum cum. Commodi voluptates quo, sapiente ad aperiam libero ipsam nesciunt distinctio hic quibusdam magni eius neque quisquam minima, voluptatem unde odio accusamus numquam delectus? Eum nobis facere autem ipsum corrupti id porro cumque rerum magnam non, quo eligendi excepturi, dolor veniam sunt maxime. At, ab rem. Aliquam exercitationem sequi qui veritatis dolorum distinctio repudiandae optio. Dolorem unde excepturi eligendi. Harum dolorem, saepe ipsam quibusdam fuga totam numquam cupiditate, minima rerum perspiciatis, vitae nam in? Accusamus, autem pariatur. Voluptate dolore repellat nisi optio nobis ratione deleniti! Ut, rerum in a, dolor nobis maiores dolorem esse autem mollitia assumenda qui nihil explicabo ducimus sit saepe error eum sint voluptatem iste? Eaque nam consequatur est, corporis neque tempore provident fugit, dolore dignissimos impedit ab at possimus dolorum quibusdam, ullam repellendus dolorem numquam architecto quod unde explicabo vel. Voluptates quos repellendus dolores nemo sunt deleniti commodi id quasi, veritatis, culpa numquam est itaque iusto. Repellat tenetur omnis expedita sint esse voluptate, itaque in, accusamus a minima modi pariatur optio explicabo, at beatae qui enim veniam fuga. Totam reprehenderit explicabo similique. Quisquam dicta doloribus minus, provident, non voluptas consequatur minima aperiam totam hic explicabo.</p>
                 <img src="./assets/img/cat.png" alt="littel cat" class="cat-image">
@@ -45,22 +52,25 @@
 
         <div class="w-full flex m-10">
             <div class="w-60 px-10 bg-secondary margin-center contate-nos text-white">
-                <form action="#" method="post" autocomplete="off">
+                <form>
                     <fieldset>
                         <legend>Entre em contato por aqui</legend>
                         <label for="name">Nome</label>
-                        <input type="text" name="name" id="name" required placeholder="Digite seu nome completo" />
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome completo" />
                         <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" required placeholder="Digite um e-mail válido" />
+                        <input type="email" name="email" id="email" placeholder="Digite um e-mail válido" />
                         <label for="subject">Assunto</label>
                         <input type="text" name="subject" id="subject" placeholder="Insira o assunto da mensagem" />
                         <label for="message">Mensagem</label>
                         <textarea name="message" id="message" rows="7" required maxlength="1000" minlength="20" placeholder="Conte-nos tudo"></textarea>
-                        <button class="form-button">Confirmar</button>
+                        <button class="form-button" id="form-button">Confirmar</button>
                     </fieldset>
                 </form>
+                <p class="subtext text-center aviso" id="aviso"></p>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
