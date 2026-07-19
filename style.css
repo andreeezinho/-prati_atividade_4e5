@@ -140,6 +140,11 @@ h3{
     position: relative;
 }
 
+.contate-nos{
+    border-radius: 15px;
+    position: relative;
+}
+
 .subtext{
     margin-top: 50px;
 }
@@ -151,4 +156,72 @@ h3{
     position: absolute;
     bottom: -94px;
     left: 0;
+}
+
+form {
+    width: 100%;
+    padding: 1em;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input,
+textarea {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid transparent;
+    border-bottom-color: #bbb;
+    padding: 0.75em;
+    margin: 0.5em 0 2.5em;
+    color: white;
+    outline: 0;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom: 2px solid #8e999a;
+    background-color: #2a2727;
+}
+
+legend {
+    padding: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    color: #8e999a;
+    font-size: 1.3em;
+}
+
+.btn {
+    background-color: #2a2727;
+    color: white;
+    cursor: pointer;
+    padding: 0.7em;
+    font-size: 1.2em;
+    border: none;
+}
+
+.form-button{
+    background-color: white;
+    border: white 2px solid;
+    color: #0F1216;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+.form-button:hover{
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+    cursor: pointer;
 }
